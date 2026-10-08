@@ -1,0 +1,562 @@
+{
+  "bg": {
+    "neutral": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.white}",
+        "$description": "Main page and app background."
+      },
+      "primary-hover": {
+        "$type": "color",
+        "$value": "{color.slate.50}",
+        "$description": "Hover for elements filled with bg/neutral/primary, like a white secondary button."
+      },
+      "primary-pressed": {
+        "$type": "color",
+        "$value": "{color.slate.100}",
+        "$description": "Pressed state for elements filled with bg/neutral/primary."
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.slate.50}",
+        "$description": "Cards, panels and sections that sit on bg/neutral/primary."
+      },
+      "secondary-hover": {
+        "$type": "color",
+        "$value": "{color.slate.100}",
+        "$description": "Hover for elements filled with bg/neutral/secondary."
+      },
+      "secondary-pressed": {
+        "$type": "color",
+        "$value": "{color.slate.200}",
+        "$description": "Pressed state for elements filled with bg/neutral/secondary."
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.slate.100}",
+        "$description": "Low-emphasis fills: chips, tags, hover backgrounds."
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{color.slate.900}",
+        "$description": "High-contrast fills like tooltips and toasts."
+      },
+      "placeholder": {
+        "$type": "color",
+        "$value": "{color.slate.200}",
+        "$description": "Skeleton loaders and empty image or avatar placeholders."
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.slate.100}",
+        "$description": "Disabled buttons and inputs."
+      },
+      "ghost-hover": {
+        "$type": "color",
+        "$value": "{color.black-alpha.5}",
+        "$description": "Hover for things with no fill at rest: ghost buttons, list rows, menu items. Translucent, so it tints whatever is underneath."
+      },
+      "ghost-pressed": {
+        "$type": "color",
+        "$value": "{color.black-alpha.10}",
+        "$description": "Pressed state for ghost buttons, list rows and menu items."
+      },
+      "overlay": {
+        "$type": "color",
+        "$value": "{color.black-alpha.50}",
+        "$description": "Dimmed backdrop behind modals and drawers."
+      }
+    },
+    "accent": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.blue.50}",
+        "$description": "Lightest accent tint for banners, alerts and badge backgrounds."
+      },
+      "subtle-hover": {
+        "$type": "color",
+        "$value": "{color.blue.100}",
+        "$description": "Hover for soft accent buttons filled with bg/accent/subtle. Use text/accent/strong on top."
+      },
+      "subtle-pressed": {
+        "$type": "color",
+        "$value": "{color.blue.200}",
+        "$description": "Pressed state for soft accent buttons. Use text/accent/strong on top."
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{color.blue.100}",
+        "$description": "A step stronger than subtle — selected rows, hover on subtle accent areas."
+      },
+      "solid": {
+        "$type": "color",
+        "$value": "{color.blue.600}",
+        "$description": "Bold accent fill for buttons and filled badges. Pair with text/neutral/on-solid."
+      },
+      "solid-hover": {
+        "$type": "color",
+        "$value": "{color.blue.700}",
+        "$description": "Hover state for bg/accent/solid."
+      },
+      "solid-pressed": {
+        "$type": "color",
+        "$value": "{color.blue.800}",
+        "$description": "Pressed state for bg/accent/solid."
+      }
+    },
+    "error": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.red.50}",
+        "$description": "Lightest error tint for banners, alerts and badge backgrounds."
+      },
+      "subtle-hover": {
+        "$type": "color",
+        "$value": "{color.red.100}",
+        "$description": "Hover for soft error buttons filled with bg/error/subtle. Use text/error/strong on top."
+      },
+      "subtle-pressed": {
+        "$type": "color",
+        "$value": "{color.red.200}",
+        "$description": "Pressed state for soft error buttons. Use text/error/strong on top."
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{color.red.100}",
+        "$description": "A step stronger than subtle — selected rows, hover on subtle error areas."
+      },
+      "solid": {
+        "$type": "color",
+        "$value": "{color.red.600}",
+        "$description": "Bold error fill for buttons and filled badges. Pair with text/neutral/on-solid."
+      },
+      "solid-hover": {
+        "$type": "color",
+        "$value": "{color.red.700}",
+        "$description": "Hover state for bg/error/solid."
+      },
+      "solid-pressed": {
+        "$type": "color",
+        "$value": "{color.red.800}",
+        "$description": "Pressed state for bg/error/solid."
+      }
+    },
+    "success": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.green.50}",
+        "$description": "Lightest success tint for banners, alerts and badge backgrounds."
+      },
+      "subtle-hover": {
+        "$type": "color",
+        "$value": "{color.green.100}",
+        "$description": "Hover for soft success buttons filled with bg/success/subtle. Use text/success/strong on top."
+      },
+      "subtle-pressed": {
+        "$type": "color",
+        "$value": "{color.green.200}",
+        "$description": "Pressed state for soft success buttons. Use text/success/strong on top."
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{color.green.100}",
+        "$description": "A step stronger than subtle — selected rows, hover on subtle success areas."
+      },
+      "solid": {
+        "$type": "color",
+        "$value": "{color.green.700}",
+        "$description": "Bold success fill for buttons and filled badges. Pair with text/neutral/on-solid."
+      },
+      "solid-hover": {
+        "$type": "color",
+        "$value": "{color.green.800}",
+        "$description": "Hover state for bg/success/solid."
+      },
+      "solid-pressed": {
+        "$type": "color",
+        "$value": "{color.green.900}",
+        "$description": "Pressed state for bg/success/solid."
+      }
+    },
+    "warning": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.amber.50}",
+        "$description": "Lightest warning tint for banners, alerts and badge backgrounds."
+      },
+      "subtle-hover": {
+        "$type": "color",
+        "$value": "{color.amber.100}",
+        "$description": "Hover for soft warning buttons filled with bg/warning/subtle. Use text/warning/strong on top."
+      },
+      "subtle-pressed": {
+        "$type": "color",
+        "$value": "{color.amber.200}",
+        "$description": "Pressed state for soft warning buttons. Use text/warning/strong on top."
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{color.amber.100}",
+        "$description": "A step stronger than subtle — selected rows, hover on subtle warning areas."
+      },
+      "solid": {
+        "$type": "color",
+        "$value": "{color.amber.700}",
+        "$description": "Bold warning fill for buttons and filled badges. Pair with text/neutral/on-solid."
+      },
+      "solid-hover": {
+        "$type": "color",
+        "$value": "{color.amber.800}",
+        "$description": "Hover state for bg/warning/solid."
+      },
+      "solid-pressed": {
+        "$type": "color",
+        "$value": "{color.amber.900}",
+        "$description": "Pressed state for bg/warning/solid."
+      }
+    },
+    "info": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.sky.50}",
+        "$description": "Lightest info tint for banners, alerts and badge backgrounds."
+      },
+      "subtle-hover": {
+        "$type": "color",
+        "$value": "{color.sky.100}",
+        "$description": "Hover for soft info buttons filled with bg/info/subtle. Use text/info/strong on top."
+      },
+      "subtle-pressed": {
+        "$type": "color",
+        "$value": "{color.sky.200}",
+        "$description": "Pressed state for soft info buttons. Use text/info/strong on top."
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{color.sky.100}",
+        "$description": "A step stronger than subtle — selected rows, hover on subtle info areas."
+      },
+      "solid": {
+        "$type": "color",
+        "$value": "{color.sky.700}",
+        "$description": "Bold info fill for buttons and filled badges. Pair with text/neutral/on-solid."
+      },
+      "solid-hover": {
+        "$type": "color",
+        "$value": "{color.sky.800}",
+        "$description": "Hover state for bg/info/solid."
+      },
+      "solid-pressed": {
+        "$type": "color",
+        "$value": "{color.sky.900}",
+        "$description": "Pressed state for bg/info/solid."
+      }
+    }
+  },
+  "text": {
+    "neutral": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.slate.900}",
+        "$description": "Main text: headings, body copy."
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.slate.700}",
+        "$description": "Supporting text."
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.slate.600}",
+        "$description": "Lowest-emphasis text that still needs to be read: metadata, hints, captions."
+      },
+      "placeholder": {
+        "$type": "color",
+        "$value": "{color.slate.500}",
+        "$description": "Placeholder text in inputs."
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.slate.400}",
+        "$description": "Disabled text."
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{color.white}",
+        "$description": "Text on bg/neutral/inverse."
+      },
+      "on-solid": {
+        "$type": "color",
+        "$value": "{color.white}",
+        "$description": "Text on any solid intent fill (bg/accent/solid, bg/error/solid…)."
+      }
+    },
+    "accent": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.blue.700}",
+        "$description": "Accent text. Readable on surfaces and on accent subtle/muted backgrounds."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.blue.800}",
+        "$description": "Higher-contrast accent text for when primary feels too light."
+      }
+    },
+    "error": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.red.700}",
+        "$description": "Error text. Readable on surfaces and on error subtle/muted backgrounds."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.red.800}",
+        "$description": "Higher-contrast error text for when primary feels too light."
+      }
+    },
+    "success": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.green.700}",
+        "$description": "Success text. Readable on surfaces and on success subtle/muted backgrounds."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.green.800}",
+        "$description": "Higher-contrast success text for when primary feels too light."
+      }
+    },
+    "warning": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.amber.700}",
+        "$description": "Warning text. Readable on surfaces and on warning subtle/muted backgrounds."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.amber.800}",
+        "$description": "Higher-contrast warning text for when primary feels too light."
+      }
+    },
+    "info": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.sky.700}",
+        "$description": "Info text. Readable on surfaces and on info subtle/muted backgrounds."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.sky.800}",
+        "$description": "Higher-contrast info text for when primary feels too light."
+      }
+    }
+  },
+  "icon": {
+    "neutral": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.slate.900}",
+        "$description": "Main icons: headings, body copy."
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.slate.700}",
+        "$description": "Supporting icons."
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.slate.600}",
+        "$description": "Lowest-emphasis icons that still needs to be read: metadata, hints, captions."
+      },
+      "placeholder": {
+        "$type": "color",
+        "$value": "{color.slate.500}",
+        "$description": "Placeholder icons in inputs."
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.slate.400}",
+        "$description": "Disabled icons."
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{color.white}",
+        "$description": "Icons on bg/neutral/inverse."
+      },
+      "on-solid": {
+        "$type": "color",
+        "$value": "{color.white}",
+        "$description": "Icons on any solid intent fill (bg/accent/solid, bg/error/solid…)."
+      }
+    },
+    "accent": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.blue.700}",
+        "$description": "Accent icons. Readable on surfaces and on accent subtle/muted backgrounds."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.blue.800}",
+        "$description": "Higher-contrast accent icons for when primary feels too light."
+      }
+    },
+    "error": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.red.700}",
+        "$description": "Error icons. Readable on surfaces and on error subtle/muted backgrounds."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.red.800}",
+        "$description": "Higher-contrast error icons for when primary feels too light."
+      }
+    },
+    "success": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.green.700}",
+        "$description": "Success icons. Readable on surfaces and on success subtle/muted backgrounds."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.green.800}",
+        "$description": "Higher-contrast success icons for when primary feels too light."
+      }
+    },
+    "warning": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.amber.700}",
+        "$description": "Warning icons. Readable on surfaces and on warning subtle/muted backgrounds."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.amber.800}",
+        "$description": "Higher-contrast warning icons for when primary feels too light."
+      }
+    },
+    "info": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.sky.700}",
+        "$description": "Info icons. Readable on surfaces and on info subtle/muted backgrounds."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.sky.800}",
+        "$description": "Higher-contrast info icons for when primary feels too light."
+      }
+    }
+  },
+  "border": {
+    "neutral": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.slate.500}",
+        "$description": "Strongest neutral border: inputs and controls that must be clearly visible (meets 3:1)."
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.slate.300}",
+        "$description": "Stronger border for when tertiary gets lost."
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.slate.200}",
+        "$description": "The everyday border for cards and containers."
+      },
+      "quaternary": {
+        "$type": "color",
+        "$value": "{color.slate.100}",
+        "$description": "Quietest border: dividers inside cards and lists."
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.slate.200}",
+        "$description": "Borders on disabled inputs and controls."
+      }
+    },
+    "accent": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.blue.200}",
+        "$description": "Soft accent border for banners and alerts."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.blue.500}",
+        "$description": "Clear accent border — e.g. an input in an accent state."
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "{color.blue.600}",
+        "$description": "Focus rings."
+      }
+    },
+    "error": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.red.200}",
+        "$description": "Soft error border for banners and alerts."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.red.500}",
+        "$description": "Clear error border — e.g. an input in an error state."
+      }
+    },
+    "success": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.green.200}",
+        "$description": "Soft success border for banners and alerts."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.green.500}",
+        "$description": "Clear success border — e.g. an input in an success state."
+      }
+    },
+    "warning": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.amber.200}",
+        "$description": "Soft warning border for banners and alerts."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.amber.500}",
+        "$description": "Clear warning border — e.g. an input in an warning state."
+      }
+    },
+    "info": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.sky.200}",
+        "$description": "Soft info border for banners and alerts."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.sky.500}",
+        "$description": "Clear info border — e.g. an input in an info state."
+      }
+    }
+  },
+  "shadow": {
+    "neutral": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.black-alpha.10}",
+        "$description": "Main shadow color, used by the shadow effect styles."
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.black-alpha.5}",
+        "$description": "Softer ambient shadow layer, used by the shadow effect styles."
+      }
+    }
+  }
+}
