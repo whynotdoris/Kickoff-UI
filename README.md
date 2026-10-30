@@ -4,8 +4,7 @@ Color, typography, spacing, radius and shadow tokens you can drop into any Figma
 
 Built on Figma variables, with light and dark modes, desktop and mobile type, and colors that pass contrast checks out of the box.
 
-**Figma Community file:** _coming soon_
-**Figma plugin:** _coming soon_
+**Figma plugin:** https://www.figma.com/community/plugin/1690011809923056404/kickoff-ui
 
 ---
 
